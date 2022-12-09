@@ -35,3 +35,12 @@ docker container create --name add asidikfauzi/add
 docker container start add
 
 docker container logs add
+
+#COPY INSTRUCTION
+docker build -t asidikfauzi/copy copy
+
+docker container create --name copy asidikfauzi/copy
+
+docker container start copy
+
+docker container logs copy

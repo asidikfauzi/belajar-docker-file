@@ -26,3 +26,12 @@ docker container logs command
 docker build -t asidikfauzi/label label
 
 docker image inspect asidikfauzi/label
+
+#ADD INSTRUCTION
+docker build -t asidikfauzi/add add
+
+docker container create --name add asidikfauzi/add
+
+docker container start add
+
+docker container logs add

@@ -44,3 +44,12 @@ docker container create --name copy asidikfauzi/copy
 docker container start copy
 
 docker container logs copy
+
+#DOCKERIGNORE FILE
+docker build -t asidikfauzi/ignore ignore
+
+docker container create --name ignore asidikfauzi/ignore
+
+docker container start ignore
+
+docker container logs ignore
